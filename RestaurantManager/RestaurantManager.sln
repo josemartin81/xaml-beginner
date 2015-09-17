@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RestaurantManager.UniversalWindows", "RestaurantManager.UniversalWindows", "{9031142B-511D-47DB-85DC-0751B1B43BE7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RestaurantManager.UniversalWindows.Shared", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.shproj", "{677CC557-1C5F-4A3A-9D58-26B8851C493B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows.Windows", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Windows\RestaurantManager.UniversalWindows.Windows.csproj", "{161B5C54-B35C-46E5-A262-7011E11CFFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows.WindowsPhone", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.WindowsPhone\RestaurantManager.UniversalWindows.WindowsPhone.csproj", "{68D93C76-5419-4551-8F8E-02448ED7A516}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.projitems*{161b5c54-b35c-46e5-a262-7011e11cfffe}*SharedItemsImports = 4
+		RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.projitems*{68d93c76-5419-4551-8f8e-02448ed7a516}*SharedItemsImports = 4
+		RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.Shared\RestaurantManager.UniversalWindows.Shared.projitems*{677cc557-1c5f-4a3a-9d58-26b8851c493b}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|ARM.Build.0 = Debug|ARM
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|x64.ActiveCfg = Debug|x64
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|x64.Build.0 = Debug|x64
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|x64.Deploy.0 = Debug|x64
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|x86.ActiveCfg = Debug|x86
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|x86.Build.0 = Debug|x86
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Debug|x86.Deploy.0 = Debug|x86
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|ARM.ActiveCfg = Release|ARM
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|ARM.Build.0 = Release|ARM
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|ARM.Deploy.0 = Release|ARM
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|x64.ActiveCfg = Release|x64
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|x64.Build.0 = Release|x64
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|x64.Deploy.0 = Release|x64
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|x86.ActiveCfg = Release|x86
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|x86.Build.0 = Release|x86
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE}.Release|x86.Deploy.0 = Release|x86
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|ARM.ActiveCfg = Debug|ARM
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|ARM.Build.0 = Debug|ARM
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|ARM.Deploy.0 = Debug|ARM
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|x64.Build.0 = Debug|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|x86.ActiveCfg = Debug|x86
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|x86.Build.0 = Debug|x86
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Debug|x86.Deploy.0 = Debug|x86
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|ARM.ActiveCfg = Release|ARM
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|ARM.Build.0 = Release|ARM
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|ARM.Deploy.0 = Release|ARM
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|x64.ActiveCfg = Release|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|x64.Build.0 = Release|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|x64.Deploy.0 = Release|Any CPU
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|x86.ActiveCfg = Release|x86
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|x86.Build.0 = Release|x86
+		{68D93C76-5419-4551-8F8E-02448ED7A516}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{677CC557-1C5F-4A3A-9D58-26B8851C493B} = {9031142B-511D-47DB-85DC-0751B1B43BE7}
+		{161B5C54-B35C-46E5-A262-7011E11CFFFE} = {9031142B-511D-47DB-85DC-0751B1B43BE7}
+		{68D93C76-5419-4551-8F8E-02448ED7A516} = {9031142B-511D-47DB-85DC-0751B1B43BE7}
+	EndGlobalSection
+EndGlobal
