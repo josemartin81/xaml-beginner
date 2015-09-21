@@ -20,11 +20,12 @@
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="Button1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0">
-                <TextBlock x:Name="textBlock3" Text="**Go to Orders View**"/>
+            <Button x:Name="Button1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Background="#FF555555" Click="Button1_Click">
+                <TextBlock x:Name="textBlock3" Text="Go to Orders View">
+                </TextBlock>
             </Button>
-            <Button x:Name="Button2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Click="Click">
-                <TextBlock x:Name="textBlock4" Text="**Submit Order**"/>
+            <Button x:Name="Button2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Background="#FF555555" Click="Button2_Click">
+                <TextBlock x:Name="textBlock4" Text="Submit Order"/>
             </Button>
         </Grid>
     </Grid>
