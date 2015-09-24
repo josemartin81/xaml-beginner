@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantManager.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,9 +21,9 @@ namespace RestaurantManager.UniversalWindows
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class OrderPage : Page
+    public sealed partial class ExpeditePage : Page
     {
-        public OrderPage()
+        public ExpeditePage()
         {
             this.InitializeComponent();
         }
@@ -31,5 +32,12 @@ namespace RestaurantManager.UniversalWindows
         {
             Frame.Navigate(typeof(MainPage));
         }
-    }
+
+        private void ClearOrdersButton_Click(object sender, RoutedEventArgs e)
+         { 
+           DataManager dm = App.Current.Resources["DataManager"] as DataManager; 
+            dm.OrderItems.Clear();
+        }
+
+}
 }

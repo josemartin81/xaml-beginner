@@ -5,10 +5,10 @@
     xmlns:local="using:RestaurantManager.UniversalWindows"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" DataContext="{StaticResource DataManager}">
 
     <Page.TopAppBar>
-        <AppBar IsOpen="True">
+        <AppBar>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="50*"/>
@@ -25,11 +25,7 @@
             <RowDefinition Height="0.9*"/>
             <RowDefinition Height="0.1*"/>
         </Grid.RowDefinitions>
-        <GridView Grid.Row="0" Grid.Column="0">
-        </GridView>
-        <Button x:Name="Button1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Background="#FF555555">
-                <TextBlock x:Name="textBlock1" Text="Clear All Orders"/>
-            </Button>
-  
+        <GridView x:Name="OrdersGrid" Grid.Row="0" ItemsSource="{Binding OrderItems}" Margin="10" />
+        <Button x:Name="Button1" Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Background="#FF555555" Click="ClearOrdersButton_Click" />
     </Grid>
 </Page>
